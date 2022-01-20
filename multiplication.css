@@ -1,0 +1,17 @@
+#root{
+
+    background-color: aqua;
+    display : flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+#root div{
+    border: 3px solid red;
+    margin-top:5px;
+    margin-left : 10px;
+    padding-left : 10px;
+    padding-right : 10px;
+    min-width: max-content;
+}

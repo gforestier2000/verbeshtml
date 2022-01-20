@@ -21,14 +21,14 @@ false && false; // => false
 
 // Autres opérateur logique comme le XOR, le NAND 
 
-// Affichage de boolean
+// Affichage de boolean : Table de vérité du OR, le OU logique
 console.log("Table de vérité du OR, le OU logique")
 console.log("false || false = ", false || false);
 console.log("false || true  = ", false || true);
 console.log("true  || false = ", true  || false);
 console.log("true  || true  = ", true  || true);
 
-// Affichage de boolean
+// Affichage de boolean : Table de vérité du AND, le ET logique
 console.log();
 console.log();
 console.log("Table de vérité du AND, le ET logique")
@@ -38,6 +38,8 @@ console.log("true  && false = ", true  && false);
 console.log("true  && true  = ", true  && true);
 
 // 2 - Number
+console.log();
+console.log();
 console.log("1 : ", 1);
 console.log("1.2 : ", 1.2);
 console.log("1+1 : ", 1+1);
@@ -85,21 +87,35 @@ console.log("Mon super message 3")
 // Repeter un truc 
 // FOR (...;...;...){}
 
+// on va a) initialiser une variable increment à 0 et on va l'augmenter de 1 tant qu'elle est inférieur à 10
 for(let increment = 0; increment < 10; increment=increment+1){
     console.log("incrément = " + increment);
 }
 
+// on remplace increment par i 
 for(let i = 0; i < 10; i=i+1){
     console.log("incrément = " + i);
 }
 
+// on remplace i = i +1 par i++
 for(let i = 0; i < 10; i++){
     console.log("incrément = " + i);
 }
 
-
+// on fait une boucle de [0 à 100[
 for(let i = 0; i < 100; i++){
     console.log(i+1 + " : " + "Je dois arriver à l'heure chaque jour sinon je dois copier 100 fois cette ligne");
 }
 
+
+// Types complexes : AOK
+// Array = tableau []
+// Objet
+// Classe
+
+
+// fonctions
+
+
+//
 console.log("fin de mon programme");
